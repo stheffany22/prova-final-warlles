@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c, soma;
+
+    printf("Digite tres valores: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    soma = (a * a) + (b * b) + (c * c);
+
+    printf("Soma dos quadrados = %d\n", soma);
+
+    return 0;
+}
