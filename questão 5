@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main() {
+    char letra_maiuscula, letra_minuscula;
+
+    printf("Digite uma letra maiuscula: ");
+    scanf("%c", &letra_maiuscula);
+
+    // conversão pela tabela ASCII:
+    // 'A' (65) -> 'a' (97), sempre soma 32
+    letra_minuscula = letra_maiuscula + 32;
+
+    printf("Letra minuscula: %c\n", letra_minuscula);
+
+    return 0;
+}
